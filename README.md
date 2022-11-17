@@ -26,6 +26,12 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/.../v2ray/mast
 - docker 安装方法
 
 ## v2ray2022.sh
-- v2ray 一键安装脚本
+- v2ray 一键安装脚本,远程安装命令
+
+```
+wget -N --no-check-certificate "https://github.com/cylim76/v2ray-install/raw/main/v2ray2022.sh" && chmod +x v2ray2022.sh && ./v2ray2022.sh
+
+```
+
 ## v2ray2022en.sh
 - 22ray 一键安装脚本部分英文界面 vnc用
