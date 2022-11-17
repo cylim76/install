@@ -8,7 +8,7 @@
 apt install git
 
 #代码复制到本地
-git clone https://github.com/.../v2ray-install.git
+git clone https://github.com/cylim76/v2ray-install.git
 
 # 进入目录及运行
 cd v2ray-install
