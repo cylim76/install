@@ -13,63 +13,88 @@ mkdir links
 
 split -l 1  --numeric-suffixes=1   inbounds.sh ulink
 
+echo 'start to make groupfiles'
+sleep 10
+
 
 echo ‘添加节点到分组’
 echo '添加到组： 01-02-Mine.TXT'
-cat ulink01 >> ./links/ugroup01
-cat ulink02 >> ./links/ugroup01
+cat ulink01 >> ugroup01
+cat ulink02 >> ugroup01
 
 echo '添加到组： 03-03-eessgg.TXT'
-cat ulink03 >> ./links/ugroup03
+cat ulink03 >> ugroup03
 
 echo '添加到组： 00-01-us-router-04-09.TXT'
-cat ulink04 >> ./links/ugroup04
-cat ulink05 >> ./links/ugroup04
-cat ulink06 >> ./links/ugroup04
-cat ulink07 >> ./links/ugroup04
-cat ulink08 >> ./links/ugroup04
-cat ulink09 >> ./links/ugroup04
+cat ulink04 >> ugroup04
+cat ulink05 >> ugroup04
+cat ulink06 >> ugroup04
+cat ulink07 >> ugroup04
+cat ulink08 >> ugroup04
+cat ulink09 >> ugroup04
 
 echo '添加到组： 10-11-mamamia.TXT'
-cat ulink10 >> ./links/ugroup10
-cat ulink11 >> ./links/ugroup10
+cat ulink10 >> ugroup10
+cat ulink11 >> ugroup10
 
 echo '添加到组： 12-13-padre.TXT'
-cat ulink12 >> ./links/ugroup12
-cat ulink13 >> ./links/ugroup12
+cat ulink12 >> ugroup12
+cat ulink13 >> ugroup12
 
 echo '添加到组： 14-15-wxqqq.TXT'
-cat ulink14 >> ./links/ugroup14
-cat ulink15 >> ./links/ugroup14
+cat ulink14 >> ugroup14
+cat ulink15 >> ugroup14
 
 echo '添加到组： 16-17-kimss.TXT'
-cat ulink16 >> ./links/ugroup16
-cat ulink17 >> ./links/ugroup16
+cat ulink16 >> ugroup16
+cat ulink17 >> ugroup16
 
 echo '添加到组： 18-18-kongdd.TXT'
-cat ulink18 >> ./links/ugroup18
+cat ulink18 >> ugroup18
 
 echo '添加到组： 19-20-Kris.TX'
-cat ulink19 >> ./links/ugroup19
-cat ulink20 >> ./links/ugroup19
+cat ulink19 >> ugroup19
+cat ulink20 >> ugroup19
 
 echo '添加到组： 21-22park66.TXT'
-cat ulink21 >> ./links/ugroup21
-cat ulink22 >> ./links/ugroup21
+cat ulink21 >> ugroup21
+cat ulink22 >> ugroup21
+
+
+echo 'start to encode files'
+sleep 3
+
+base64 ugroup01 > ugroup01_encoded
+base64 ugroup03 > ugroup03_encoded
+base64 ugroup04 > ugroup04_encoded
+base64 ugroup10 > ugroup10_encoded
+base64 ugroup12 > ugroup12_encoded
+base64 ugroup14 > ugroup14_encoded
+base64 ugroup16 > ugroup16_encoded
+base64 ugroup18 > ugroup18_encoded
+base64 ugroup19 > ugroup19_encoded
+base64 ugroup21 > ugroup21_encoded
+
+echo 'start to move files'
+sleep 5
+
+mv ugroup01_encoded ./links/01-02-Mine.TXT
+mv ugroup03_encoded ./links/03-03-eessgg.TXT
+mv ugroup04_encoded ./links/00-01-us-router-04-09.TXT
+mv ugroup10_encoded ./links/10-11-mamamia.TXT
+mv ugroup12_encoded ./links/12-13-padre.TXT
+mv ugroup14_encoded ./links/14-15-wxqqq.TXT
+mv ugroup16_encoded ./links/16-17-kimss.TXT
+mv ugroup18_encoded ./links/18-18-kongdd.TXT
+mv ugroup19_encoded ./links/19-20-Kris.TXT
+mv ugroup21_encoded ./links/21-22park66.TXT
 
 
 
 
-base64 ./links/ugroup01 > ./links/usub_encoded | mv ./links/usub_encoded ./links/01-02-Mine.TXT
-base64 ./links/ugroup03 > ./links/usub_encoded | mv ./links/usub_encoded ./links/03-03-eessgg.TXT
-base64 ./links/ugroup04 > ./links/usub_encoded | mv ./links/usub_encoded ./links/00-01-us-router-04-09.TXT
-base64 ./links/ugroup10 > ./links/usub_encoded | mv ./links/usub_encoded ./links/10-11-mamamia.TXT
-base64 ./links/ugroup12 > ./links/usub_encoded | mv ./links/usub_encoded ./links/12-13-padre.TXT
-base64 ./links/ugroup14 > ./links/usub_encoded | mv ./links/usub_encoded ./links/14-15-wxqqq.TXT
-base64 ./links/ugroup16 > ./links/usub_encoded | mv ./links/usub_encoded ./links/16-17-kimss.TXT
-base64 ./links/ugroup18 > ./links/usub_encoded | mv ./links/usub_encoded ./links/18-18-kongdd.TXT
-base64 ./links/ugroup19 > ./links/usub_encoded | mv ./links/usub_encoded ./links/19-20-Kris.TXT
-base64 ./links/ugroup21 > ./links/usub_encoded | mv ./links/usub_encoded ./links/21-22park66.TXT
+
+echo 'delete all links and group files'
+sleep 5
 
 rm  ./ulink*
-rm  ./links/ugroup*
+rm  ugroup*
