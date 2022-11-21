@@ -78,15 +78,15 @@ base64 ugroup21 > ugroup21_encoded
 echo 'start to move files'
 sleep 5
 
-mv ugroup01_encoded ./links/01-02-Mine.TXT
-mv ugroup03_encoded ./links/03-03-eessgg.TXT
-mv ugroup04_encoded ./links/00-01-us-router-04-09.TXT
-mv ugroup10_encoded ./links/10-11-mamamia.TXT
-mv ugroup12_encoded ./links/12-13-padre.TXT
-mv ugroup14_encoded ./links/14-15-wxqqq.TXT
-mv ugroup16_encoded ./links/16-17-kimss.TXT
+mv ugroup01_encoded ./links/01-02-hydroxides.TXT
+mv ugroup03_encoded ./links/03-03-eshareagen.TXT
+mv ugroup04_encoded ./links/04-09-us-router.TXT
+mv ugroup10_encoded ./links/10-11-molecular.TXT
+mv ugroup12_encoded ./links/12-13-patriotic.TXT
+mv ugroup14_encoded ./links/14-15-equation.TXT
+mv ugroup16_encoded ./links/16-17-kovalence.TXT
 mv ugroup18_encoded ./links/18-18-kongdd.TXT
-mv ugroup19_encoded ./links/19-20-Kris.TXT
+mv ugroup19_encoded ./links/19-20-crisis.TXT
 mv ugroup21_encoded ./links/21-22park66.TXT
 
 
