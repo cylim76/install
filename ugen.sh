@@ -81,13 +81,13 @@ cat slink04 >> ugroup04
 
 echo 'sg添加到组： 21-22park66'
 cat slink05 >> ugroup21
-cat ulink06 >> ugroup21
-cat ulink07 >> ugroup21
-cat ulink08 >> ugroup21
-cat ulink09 >> ugroup21
+cat slink06 >> ugroup21
+cat slink07 >> ugroup21
+cat slink08 >> ugroup21
+cat slink09 >> ugroup21
 
-cat ulink08 >> ugroup14
-cat ulink09 >> ugroup14
+cat slink08 >> ugroup14
+cat slink09 >> ugroup14
 
 echo 'start to encode files'
 sleep 2
@@ -127,4 +127,5 @@ echo 'delete all links and group files'
 sleep 2
 
 rm  -rf ./ulink*
+rm  -rf ./slink*
 rm  -rf ./ugroup*
