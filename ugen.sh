@@ -92,7 +92,7 @@ cat slink09 >> ugroup14
 echo 'start to encode files'
 sleep 2
 
-base64 ugroup01 > ugroup00_encoded
+base64 ugroup00 > ugroup00_encoded
 base64 ugroup01 > ugroup01_encoded
 base64 ugroup03 > ugroup03_encoded
 base64 ugroup04 > ugroup04_encoded
