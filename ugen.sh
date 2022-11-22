@@ -14,7 +14,7 @@ mkdir links
 split -l 1  --numeric-suffixes=1   inbounds.sh ulink
 
 echo 'start to make groupfiles'
-sleep 10
+sleep 2
 
 
 echo ‘添加节点到分组’
@@ -62,7 +62,7 @@ cat ulink22 >> ugroup21
 
 
 echo 'start to encode files'
-sleep 3
+sleep 2
 
 base64 ugroup01 > ugroup01_encoded
 base64 ugroup03 > ugroup03_encoded
@@ -76,7 +76,7 @@ base64 ugroup19 > ugroup19_encoded
 base64 ugroup21 > ugroup21_encoded
 
 echo 'start to move files'
-sleep 5
+sleep 2
 
 mv ugroup01_encoded ./links/01-02-hydroxides.TXT
 mv ugroup03_encoded ./links/03-03-eshareagen.TXT
@@ -94,7 +94,7 @@ mv ugroup21_encoded ./links/21-22park66.TXT
 
 
 echo 'delete all links and group files'
-sleep 5
+sleep 2
 
-rm  ./ulink*
-rm  ugroup*
+rm  -rf ./ulink*
+rm  -rf ./ugroup*
