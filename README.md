@@ -35,3 +35,19 @@ wget -N --no-check-certificate "https://github.com/cylim76/v2ray-install/raw/mai
 
 ## v2ray2022en.sh
 - 22ray 一键安装脚本部分英文界面 vnc用
+
+
+# docker静态站
+```
+docker run -d -p 83:80  -v /root/sublinks/links:/usr/share/nginx/html --name subnginx --restart=always nginx
+```
+crontab -e
+```
+9,19,29,39,49,58 * * * * cd /root/sublinks/ && ./ugen.sh && sleep 5 && docker restart subnginx
+```
+
+
+
+
+
+
