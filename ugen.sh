@@ -92,17 +92,17 @@ cat slink09 >> ugroup14
 echo 'start to encode files'
 sleep 2
 
-base64 ugroup00 > ugroup00_encoded
-base64 ugroup01 > ugroup01_encoded
-base64 ugroup03 > ugroup03_encoded
-base64 ugroup04 > ugroup04_encoded
-base64 ugroup10 > ugroup10_encoded
-base64 ugroup12 > ugroup12_encoded
-base64 ugroup14 > ugroup14_encoded
-base64 ugroup16 > ugroup16_encoded
-base64 ugroup18 > ugroup18_encoded
-base64 ugroup19 > ugroup19_encoded
-base64 ugroup21 > ugroup21_encoded
+base64 ugroup00 -w 0 > ugroup00_encoded
+base64 ugroup01 -w 0 > ugroup01_encoded
+base64 ugroup03 -w 0 > ugroup03_encoded
+base64 ugroup04 -w 0 > ugroup04_encoded
+base64 ugroup10 -w 0 > ugroup10_encoded
+base64 ugroup12 -w 0 > ugroup12_encoded
+base64 ugroup14 -w 0 > ugroup14_encoded
+base64 ugroup16 -w 0 > ugroup16_encoded
+base64 ugroup18 -w 0 > ugroup18_encoded
+base64 ugroup19 -w 0 > ugroup19_encoded
+base64 ugroup21 -w 0 > ugroup21_encoded
 
 echo 'start to move files'
 sleep 2
