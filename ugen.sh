@@ -129,3 +129,5 @@ sleep 2
 rm  -rf ./ulink*
 rm  -rf ./slink*
 rm  -rf ./ugroup*
+
+docker restart subnginx
