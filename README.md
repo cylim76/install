@@ -17,7 +17,7 @@ bash xxx.sh
 
 远程安装
 ```
-wget -N --no-check-certificate "https://raw.githubusercontent.com/.../v2ray/master/install.sh" && chmod +x install.sh && ./install.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/仓库所在的githubID名称/v2ray/master/install.sh" && chmod +x install.sh && ./install.sh
 ```
 
 # 文件目录
