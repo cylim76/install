@@ -49,13 +49,6 @@ crontab -e
 ```
 
 
-# x-ui 手动安装方法
-
-```
-apt update
-apt install socat
-apt install git
-```
 
 # 安装acme.sh  申请证书(手动)
 
@@ -89,6 +82,12 @@ acme.sh --installcert -d flush.gitoff.one --key-file /root/cert/flush.gitoff.one
 ```
 
 # 安装X-ui
+
+```
+apt update && apt upgrade
+apt install socat curl git
+```
+
 1.在线安装
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafukaYu/x-ui/master/install.sh)
@@ -100,6 +99,8 @@ git clone https://github.com/cylim76/x-ui
 cd x-ui
 bash install.sh
 ```
+
+
 
 #面板设置
 
