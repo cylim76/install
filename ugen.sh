@@ -145,6 +145,27 @@ echo '</body>' >> index.html
 echo '</html>' >> index.html
 mv index.html ./links/index.html
 
+echo '<!DOCTYPE html>' > 50x.html
+echo '<html>' >> 50x.html
+echo '<head>' >> 50x.html
+echo '<title>Error</title>' >> 50x.html
+echo '<style>' >> 50x.html
+echo 'html { color-scheme: light dark; }' >> 50x.html
+echo 'body { width: 35em; margin: 0 auto;' >> 50x.html
+echo 'font-family: Tahoma, Verdana, Arial, sans-serif; }' >> 50x.html
+echo '</style>' >> 50x.html
+echo '</head>' >> 50x.html
+echo '<body>' >> 50x.html
+echo '<h1>An error occurred.</h1>' >> 50x.html
+echo '<p>Sorry, the page you are looking for is currently unavailable.<br/>' >> 50x.html
+echo 'Please try again later.</p>' >> 50x.html
+echo '<p>If you are the system administrator of this resource then you should check' >> 50x.html
+echo 'the error log for details.</p>' >> 50x.html
+echo '<p><em>Faithfully yours, nginx.</em></p>' >> 50x.html
+echo '</body>' >> 50x.html
+echo '</html>' >> 50x.html
+mv 50x.html ./links/50x.html
+
 
 echo 'delete all links and group files'
 sleep 1
