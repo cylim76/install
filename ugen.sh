@@ -16,7 +16,7 @@ split -l 1  --numeric-suffixes=1   sinbounds.sh slink
 
 
 echo 'start to make groupfiles'
-sleep 2
+sleep 1
 
 
 echo ‘添加节点到监测分组’
@@ -90,7 +90,7 @@ cat slink08 >> ugroup14
 cat slink09 >> ugroup14
 
 echo 'start to encode files'
-sleep 2
+sleep 1
 
 base64 ugroup00 -w 0 > ugroup00_encoded
 base64 ugroup01 -w 0 > ugroup01_encoded
@@ -105,7 +105,7 @@ base64 ugroup19 -w 0 > ugroup19_encoded
 base64 ugroup21 -w 0 > ugroup21_encoded
 
 echo 'start to move files'
-sleep 2
+sleep 1
 
 mv ugroup00_encoded ./links/00-00-allmonitor.TXT
 mv ugroup01_encoded ./links/01-02-hydroxides.TXT
@@ -120,14 +120,44 @@ mv ugroup19_encoded ./links/19-20-crisis.TXT
 mv ugroup21_encoded ./links/21-22park66.TXT
 
 
-
+echo '<!DOCTYPE html>' > index.html
+echo '<html>' >> index.html
+echo '<head>' >> index.html
+echo '<title>Welcome to nginx!</title>' >> index.html
+echo '<style>' >> index.html
+echo 'html { color-scheme: light dark; }' >> index.html
+echo 'body { width: 35em; margin: 0 auto;' >> index.html
+echo 'font-family: Tahoma, Verdana, Arial, sans-serif; }' >> index.html
+echo '</style>' >> index.html
+echo '</head>' >> index.html
+echo '<body>' >> index.html
+echo '<h1>Welcome to nginx!</h1>' >> index.html
+echo '<p>If you see this page, the nginx web server is successfully installed and' >> index.html
+echo 'working. Further configuration is required.</p>' >> index.html
+echo '' >> index.html
+echo '<p>For online documentation and support please refer to' >> index.html
+echo '<a href='http://nginx.org/'>nginx.org</a>.<br/>' >> index.html
+echo 'Commercial support is available at' >> index.html
+echo '<a href='http://nginx.com/'>nginx.com</a>.</p>' >> index.html
+echo '' >> index.html
+echo '<p><em>Thank you for using nginx.</em></p>' >> index.html
+echo '</body>' >> index.html
+echo '</html>' >> index.html
+mv index.html ./links/index.html
 
 
 echo 'delete all links and group files'
-sleep 2
+sleep 1
 
 rm  -rf ./ulink*
 rm  -rf ./slink*
 rm  -rf ./ugroup*
+
+
+
+
+
+
+
 
 docker restart subnginx
