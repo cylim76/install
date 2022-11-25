@@ -62,7 +62,7 @@ ln -s  /root/.acme.sh/acme.sh /usr/local/bin/acme.sh
 acme.sh --set-default-ca --server letsencrypt
 
 #注册证书.有变更会收到邮件
-acme.sh --register-account -m cylim76@gmail.com  
+acme.sh --register-account -m    
 
 #申请证书
 acme.sh --issue -d flush.gitoff.one --standalone
@@ -70,7 +70,7 @@ acme.sh --issue -d flush.gitoff.one --standalone
 #安装证书 安装目录为 x-ui 适配
 acme.sh --installcert -d flush.gitoff.one --key-file /root/cert/flush.gitoff.one.key --fullchain-file /root/cert/fullchain.cer
 
-# 安装X-ui   admin76  
+# 安装X-ui
 1.在线安装
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafukaYu/x-ui/master/install.sh)
 
