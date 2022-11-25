@@ -120,11 +120,11 @@ echo 'the error log for details.</p>' >> 50x.html
 echo '<p><em>Faithfully yours, nginx.</em></p>' >> 50x.html
 echo '</body>' >> 50x.html
 echo '</html>' >> 50x.html
-mv 50x.html ./links/50x.html
+mv 50x.html ./links/index.html
 
 
 echo 'delete all links and group files'
-sleep 1
+ 
 
 rm  -rf ./ulink*
 rm  -rf ./slink*
@@ -136,5 +136,5 @@ rm  -rf ./ugroup*
 
 
 
-
+echo 'docker restart subnginx'
 docker restart subnginx
