@@ -146,7 +146,9 @@ rm  -rf ./ugroup*
 
 
 
-wget https://github.com/cylim76/install/raw/main/iptv/100hd.m3u /root/myroot/station/iprklinks/100hd.m3u
+wget https://github.com/cylim76/install/raw/main/iptv/100hd.m3u
+mv ./100hd.m3u /root/myroot/station/iprklinks/100hd.m3u
+
 #git clone http:/github.com/YanG-1989/m3u /root/myroot/station/iprklinks/YanG-1989
 #git clone https://github.com/gjwj666/jichang /root/myroot/station/iprklinks/gjwj666
 
