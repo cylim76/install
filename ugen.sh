@@ -2,12 +2,8 @@
 
 
 
-mkdir -p ./links
-rm -f -r ./links/*
-
-
 mkdir -p /root/myroot/station/sublinks/
-mkdir -p /root/myroot/station/iprklinks/ #kbs
+mkdir -p /root/myroot/station/iprklinks/
 
 
 
@@ -103,17 +99,17 @@ cat slink09 >> ugroup14
 echo 'start to encode files'
 #sleep 1
 
-base64 ugroup00 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/00-00-allmonitor.TXT
-base64 ugroup01 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/01-02-hydroxides.TXT
-base64 ugroup03 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/03-03-eshareagen.TXT
-base64 ugroup04 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/04-09-us-router.TXT
-base64 ugroup10 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/10-11-molecular.TXT
-base64 ugroup12 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/12-13-patriotic.TXT
-base64 ugroup14 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/14-15-equation.TXT
-base64 ugroup16 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/16-17-kovalence.TXT
-base64 ugroup18 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/18-18-kongdd.TXT
-base64 ugroup19 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/19-20-crisis.TXT
-base64 ugroup21 -w 0 > ugroup_encoded && mv ugroup_encoded ./links/21-22park66.TXT
+base64 ugroup00 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/00-00-allmonitor.TXT
+base64 ugroup01 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/01-02-hydroxides.TXT
+base64 ugroup03 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/03-03-eshareagen.TXT
+base64 ugroup04 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/04-09-us-router.TXT
+base64 ugroup10 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/10-11-molecular.TXT
+base64 ugroup12 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/12-13-patriotic.TXT
+base64 ugroup14 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/14-15-equation.TXT
+base64 ugroup16 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/16-17-kovalence.TXT
+base64 ugroup18 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/18-18-kongdd.TXT
+base64 ugroup19 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/19-20-crisis.TXT
+base64 ugroup21 -w 0 > ugroup_encoded && mv ugroup_encoded ./sublinks/21-22park66.TXT
 
 
 echo '<!DOCTYPE html>' > 50x.html
@@ -136,7 +132,8 @@ echo '<p><em>Faithfully yours, nginx.</em></p>' >> 50x.html
 echo '</body>' >> 50x.html
 echo '</html>' >> 50x.html
 
-mv 50x.html ./links/index.html
+mv 50x.html ./index.html
+cp ./index.html ./sublinks/index.html
 
 
 echo 'delete all links and group files'
@@ -147,8 +144,7 @@ rm  -rf ./slink*
 rm  -rf ./ugroup*
 
 
-#复制到station
-cp ./links/* /root/myroot/station/sublinks/
+
 
 wget https://github.com/cylim76/install/raw/main/iptv/100hd.m3u /root/myroot/station/iprklinks/100hd.m3u
 #git clone http:/github.com/YanG-1989/m3u /root/myroot/station/iprklinks/YanG-1989
