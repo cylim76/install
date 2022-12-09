@@ -2,10 +2,14 @@
 
 
 
+mkdir -p ./links
+rm -f -r ./links/*
 
-echo "make dir links"
-rm -r -f links
-mkdir links
+
+mkdir -p /root/myroot/station/sublinks/
+mkdir -p /root/myroot/station/iprklinks/ #kbs
+
+
 
 
 split -l 1  --numeric-suffixes=1   uinbounds.sh ulink
@@ -16,11 +20,11 @@ echo 'start to make groupfiles'
 sleep 1
 
 
-echo ‘添加节点到监测分组’
+echo ‘添加节点到监测组 00-00-allmonitor’
 cat uinbounds.sh >> ugroup00
 cat sinbounds.sh >> ugroup00
 
-
+echo '**********us添加到各组**************'
 echo '添加到组： 01-02-hydroxides'
 cat ulink01 >> ugroup01
 cat ulink02 >> ugroup01
@@ -36,53 +40,64 @@ cat ulink07 >> ugroup04
 cat ulink08 >> ugroup04
 cat ulink09 >> ugroup04
 
-echo '添加到组： 10-11-mamamia.TXT'
+echo '添加到组： 10-11-molecular'
 cat ulink10 >> ugroup10
 cat ulink11 >> ugroup10
 
-echo '添加到组： 12-13-padre.TXT'
+echo '添加到组： 12-13-patriotic'
 cat ulink12 >> ugroup12
 cat ulink13 >> ugroup12
 
-echo '添加到组： 14-15-wxqqq.TXT'
+echo '添加到组： 14-15-equation'
 cat ulink14 >> ugroup14
 cat ulink15 >> ugroup14
 
 
-echo '添加到组： 16-17-kimss.TXT'
+echo '添加到组： 16-17-kovalence'
 cat ulink16 >> ugroup16
 cat ulink17 >> ugroup16
 
-echo '添加到组： 18-18-kongdd.TXT'
+echo '添加到组： 18-18-kongdd'
 cat ulink18 >> ugroup18
 
-echo '添加到组： 19-20-Kris.TX'
+echo '添加到组： 19-20-crisis'
 cat ulink19 >> ugroup19
 cat ulink20 >> ugroup19
 
-echo '添加到组： 21-22park66.TXT'
+echo '添加到组： 21-22park66'
 cat ulink21 >> ugroup21
 cat ulink22 >> ugroup21
 
-
-echo 'sg添加到组： 04-09-us-router'
+echo '**********sg添加到各组**************'
+echo 'sg添加到组： 01-02-hydroxides'
 cat slink08 >> ugroup01
 cat slink09 >> ugroup01
 
+echo 'sg添加到组： 03-03-eshareagen'
+cat slink08 >> ugroup03
+
 echo 'sg添加到组： 04-09-us-router'
-cat slink01 >> ugroup04
-cat slink02 >> ugroup04
+
 cat slink03 >> ugroup04
 cat slink04 >> ugroup04
+cat slink05 >> ugroup04
+cat slink06 >> ugroup04
+cat slink07 >> ugroup04
+
+echo '添加到组： 10-11-molecular'
+cat slink01 >> ugroup10
+cat slink02 >> ugroup10
 
 echo 'sg添加到组： 21-22park66'
-cat slink05 >> ugroup21
-cat slink06 >> ugroup21
-cat slink07 >> ugroup21
-cat slink08 >> ugroup21
-cat slink09 >> ugroup21
+cat slink10 >> ugroup21
+cat slink11 >> ugroup21
+cat slink12 >> ugroup21
+cat slink13 >> ugroup21
+cat slink14 >> ugroup21
+cat slink15 >> ugroup21
+cat slink16 >> ugroup21
 
-cat slink08 >> ugroup14
+echo 'sg添加到组： 14-15-equation'
 cat slink09 >> ugroup14
 
 echo 'start to encode files'
@@ -120,21 +135,23 @@ echo 'the error log for details.</p>' >> 50x.html
 echo '<p><em>Faithfully yours, nginx.</em></p>' >> 50x.html
 echo '</body>' >> 50x.html
 echo '</html>' >> 50x.html
+
 mv 50x.html ./links/index.html
 
 
 echo 'delete all links and group files'
- 
+#sleep 1
 
 rm  -rf ./ulink*
 rm  -rf ./slink*
 rm  -rf ./ugroup*
 
 
+#复制到station
+cp ./links/* /root/myroot/station/sublinks/
 
+wget https://github.com/cylim76/install/raw/main/iptv/100hd.m3u /root/myroot/station/iprklinks/100hd.m3u
+#git clone http:/github.com/YanG-1989/m3u /root/myroot/station/iprklinks/YanG-1989
+#git clone https://github.com/gjwj666/jichang /root/myroot/station/iprklinks/gjwj666
 
-
-
-
-echo 'docker restart subnginx'
 docker restart subnginx
