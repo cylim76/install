@@ -48,6 +48,21 @@ crontab -e
 9,19,29,39,49,58 * * * * cd /root/sublinks/ && ./ugen.sh && sleep 5 && docker restart subnginx
 ```
 
+# 那匹马
+
+apt install docker docker-compose
+
+docker-compose.yml
+
+docker-compose up -d
+
+http://127.0.0.1:81
+
+Email:    admin@example.com
+
+Password: changeme
+
+
 
 
 # 安装acme.sh  申请证书(手动)
