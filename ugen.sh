@@ -4,7 +4,7 @@
 
 mkdir -p /root/myroot/station/sublinks/
 mkdir -p /root/myroot/station/iprklinks/
-
+rm -rf /root/myroot/station/sublinks/*
 
 
 
@@ -109,7 +109,7 @@ base64 ugroup14 -w 0 > ugroup_encoded && mv ugroup_encoded ./station/sublinks/14
 base64 ugroup16 -w 0 > ugroup_encoded && mv ugroup_encoded ./station/sublinks/16-17-kovalence.TXT
 base64 ugroup18 -w 0 > ugroup_encoded && mv ugroup_encoded ./station/sublinks/18-18-kongdd.TXT
 base64 ugroup19 -w 0 > ugroup_encoded && mv ugroup_encoded ./station/sublinks/19-20-crisis.TXT
-base64 ugroup21 -w 0 > ugroup_encoded && mv ugroup_encoded ./station/sublinks/21-22park66.TXT
+base64 ugroup21 -w 0 > ugroup_encoded && mv ugroup_encoded ./station/sublinks/21-22-park66.TXT
 
 
 echo '<!DOCTYPE html>' > 50x.html
