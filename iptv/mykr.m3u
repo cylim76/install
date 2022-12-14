@@ -1,5 +1,7 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png" group-title="Undefined",Korean Central Television (KCTV) (576p)
+https://tv.nknews.org/tvdash/stream.mpd
 #EXTINF:-1 tvg-id="KBS1TV.kr" status="blocked",KBS1 (720p)
 http://ye23.vip/z7z8/2021/kbs2020.php?id=1
 #EXTINF:-1 tvg-id="KBS2TV.kr" status="blocked",KBS2 (720p)
