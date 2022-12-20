@@ -3,64 +3,63 @@
 # 1. 安装X-ui
 
 
-1.在线安装
+1.1. 在线安装
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafukaYu/x-ui/master/install.sh)
 ```
 
-2.或本地安装
+1.2. 或本地安装
 ```
 git clone https://github.com/cylim76/x-ui
 cd x-ui
 bash install.sh
 ```
 
-# 2. 安装acme.sh  申请证书(手动)
+# 2. 申请并安装证书
 
+### 2.1 安装acme.sh  申请证书(手动)
 ```
 curl https://get.acme.sh | sh
 ```
-做个快捷方式
+### 2.2 做个快捷方式
 
 ```
 ln -s  /root/.acme.sh/acme.sh /usr/local/bin/acme.sh
 ```
 
-## 切换CA机构, 可选：
+### 2.3 切换CA机构, 可选：
 ```
 acme.sh --set-default-ca --server letsencrypt
 ```
 
-## 注册证书.有变更会收到邮件
+### 2.4 注册证书.有变更会收到邮件
 ```
 acme.sh --register-account -m    
 ```
 
-## 申请证书
+### 2.5 申请证书
 ```
 acme.sh --issue -d flush.gitoff.one --standalone
 ```
 
-## 安装证书 安装目录为 x-ui 适配
+### 2.6 安装证书 安装目录为 x-ui 适配
 ```
 acme.sh --installcert -d flush.gitoff.one --key-file /root/cert/flush.gitoff.one.key --fullchain-file /root/cert/fullchain.cer
 ```
 
-### 备份的数据库， 启动失败时， 查看日志， 证书文件补全后启动面板
+###2.7 其他： 备份的数据库， 启动失败时， 查看日志， 证书文件补全后启动面板
 
 
 
 # 3. docker静态站
-```
-docker run -d -p 83:80  -v /root/sublinks/links:/usr/share/nginx/html --name subnginx --restart=always nginx
-```
-docker 镜像new
+
+###3.1docker 镜像new
 ```
 docker run -d -p 84:80 -p 443:443 -v /root/myroot/station:/usr/share/nginx/html  --name subnginx --restart=always nginx
 docker run -d -p 84:80 -v /root/myroot/station:/usr/share/nginx/html  --name subnginx --restart=always nginx
 ```
 
-定时任务设置， 运行命令，添加定时运行脚本
+###3.2 定时任务设置， 运行命令，添加定时运行脚本
 ```
 crontab -e
 9,19,29,39,49,58 * * * * cd /root/sublinks/ && ./ugen.sh && sleep 5 && docker restart subnginx
