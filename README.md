@@ -3,12 +3,12 @@
 # 1. 安装X-ui
 
 
-1.1. 在线安装
+### 1.1. 在线安装
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/FranzKafukaYu/x-ui/master/install.sh)
 ```
 
-1.2. 或本地安装
+### 1.2. 或本地安装
 ```
 git clone https://github.com/cylim76/x-ui
 cd x-ui
@@ -47,19 +47,19 @@ acme.sh --issue -d flush.gitoff.one --standalone
 acme.sh --installcert -d flush.gitoff.one --key-file /root/cert/flush.gitoff.one.key --fullchain-file /root/cert/fullchain.cer
 ```
 
-###2.7 其他： 备份的数据库， 启动失败时， 查看日志， 证书文件补全后启动面板
+### 2.7 其他： 备份的数据库， 启动失败时， 查看日志， 证书文件补全后启动面板
 
 
 
 # 3. docker静态站
 
-###3.1docker 镜像new
+### 3.1docker 镜像new
 ```
 docker run -d -p 84:80 -p 443:443 -v /root/myroot/station:/usr/share/nginx/html  --name subnginx --restart=always nginx
 docker run -d -p 84:80 -v /root/myroot/station:/usr/share/nginx/html  --name subnginx --restart=always nginx
 ```
 
-###3.2 定时任务设置， 运行命令，添加定时运行脚本
+### 3.2 定时任务设置， 运行命令，添加定时运行脚本
 ```
 crontab -e
 9,19,29,39,49,58 * * * * cd /root/sublinks/ && ./ugen.sh && sleep 5 && docker restart subnginx
