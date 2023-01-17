@@ -8,8 +8,8 @@ rm -rf /root/myroot/station/sublinks/*
 
 
 
-split -l 1  --numeric-suffixes=1   kinder.tltk.xyz.sh sublinkus
-split -l 1  --numeric-suffixes=1   sega.gitoff.one.sh sublinksg
+split -l 1  --numeric-suffixes=1   kinder sublinkus
+split -l 1  --numeric-suffixes=1   sega   sublinksg
 
 
 echo 'start to make groupfiles'
@@ -17,7 +17,7 @@ sleep 1
 
 
 echo ‘添加节点到监测组 00-00-allmonitor’
-cat kinder.tltk.xyz.sh sega.gitoff.one.sh >> sublinkgroup00
+cat kinder sega >> sublinkgroup00
 
 echo '**********us添加到各组**************'
 echo '添加到组： 01-02-hydroxides'
