@@ -75,26 +75,27 @@ base64 sublinkgroup18 -w 0 > ./station/sublinks/18-18-kongdd.TXT
 base64 sublinkgroup19 -w 0 > ./station/sublinks/19-20-crisis.TXT
 base64 sublinkgroup21 -w 0 > ./station/sublinks/21-22-park66.TXT
 
-
-echo '<!DOCTYPE html>' > index.html
-echo '<html>' >> index.html
-echo '<head>' >> index.html
-echo '<title>Error</title>' >> index.html
-echo '<style>' >> index.html
-echo 'html { color-scheme: light dark; }' >> index.html
-echo 'body { width: 35em; margin: 0 auto;' >> index.html
-echo 'font-family: Tahoma, Verdana, Arial, sans-serif; }' >> index.html
-echo '</style>' >> index.html
-echo '</head>' >> index.html
-echo '<body>' >> index.html
-echo '<h1>An error occurred.</h1>' >> index.html
-echo '<p>Sorry, the page you are looking for is currently unavailable.<br/>' >> index.html
-echo 'Please try again later.</p>' >> index.html
-echo '<p>If you are the system administrator of this resource then you should check' >> index.html
-echo 'the error log for details.</p>' >> index.html
-echo '<p><em>Faithfully yours, nginx.</em></p>' >> index.html
-echo '</body>' >> index.html
-echo '</html>' >> index.html
+tee index.html<<EOF
+<!DOCTYPE html>
+<html>
+<head>
+<title>Error</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>An error occurred.</h1>
+<p>Sorry, the page you are looking for is currently unavailable.<br/>
+Please try again later.</p>
+<p>If you are the system administrator of this resource then you should check
+the error log for details.</p>
+<p><em>Faithfully yours, nginx.</em></p>
+</body>
+</html>
+EOF
 
 cp index.html ./station/sublinks/index.html
 #cp index.html ./station/iprklinks/index.html
