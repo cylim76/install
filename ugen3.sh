@@ -49,7 +49,7 @@ destsublink19='19-20-crisis.TXT'
 
 
 sublink21='sg18 sg19 sg20 sg21 sg22 sg23 sg24  us21 us22'
-destsublink21='21-22park66.TXT'
+destsublink21='21-22-park66.TXT'
 
 # 循环生成订阅文件
 groupno=0
