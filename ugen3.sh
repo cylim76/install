@@ -67,6 +67,7 @@ do
     if [[ ! -z "$srcfile"  ]]
     then
         cat $srcfile | base64 -w 0 > $htmlpath/$destfile
+        echo 生成订阅文件 $htmlpath/$destfile
     fi
     ((groupno++))
 
