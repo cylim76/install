@@ -25,7 +25,8 @@ step = 1 # the step of port number daily changed for
 def get_remark_date():
 
     current_time = datetime.datetime.now()
-    remark_date = f'_{current_time.day}_{current_time.hour}:{current_time.minute}' # real time
+    
+#     remark_date = f'_{current_time.day}_{current_time.hour}:{current_time.minute}' # real time
 
     hrand = random.randint(1,6)
     mrand = random.randint(1,60)
@@ -77,7 +78,8 @@ def db_update_portadd(db,id,port,remark):
     # print(f'id: {id} 的端口号变更！ new port: {port}, new tag: {tag}')
 
 
-# # 执行凌晨4点多运行,流量大于datamax的或按单双号更改端口
+# 执行凌晨运行,流量大于datamax的 + 按单双号更改端口
+
 def care_port():
     ids = make_id_list(dbfile)
     for id in ids :
