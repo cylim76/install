@@ -5,7 +5,7 @@
 
 ### 1.1. 在线安装
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafukaYu/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
 ```
 
 ### 1.2. 或本地安装
