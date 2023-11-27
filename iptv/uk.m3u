@@ -37,7 +37,7 @@ https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_e
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCOneYorkshire.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="General",BBC One East Yorkshire (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_yorkshire/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCOneEngland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="General",BBC One HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCOneEngland.uk" tvg-logo="" group-title="Undefined",BBC One HD (720p) [Geo-blocked]
 https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCOneLondon.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="General",BBC One London (720p) [Geo-blocked]
 https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/iptv_hd_abr_v1.mpd
@@ -61,7 +61,7 @@ https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_w
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCOneWestMidlands.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="General",BBC One West Midlands (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west_midlands/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCOneYorksLincs.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="General",BBC One Yorks (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCOneYorksLincs.uk" tvg-logo="" group-title="Undefined",BBC One Yorks (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCParliament.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/512px-BBC_Parliament_Logo.svg.png" group-title="Legislative",BBC Parliament (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd
@@ -121,7 +121,7 @@ https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_bu
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCThree.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/512px-BBC_Three_2022.svg.png" group-title="Undefined",BBC Three HD (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.mpd
-#EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-logo="" group-title="Undefined",BBC Two HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png" group-title="Undefined",BBC Two HD (720p) [Geo-blocked]
 https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.mpd
 #EXTINF:-1 tvg-id="BBCTwoNorthernIreland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png" group-title="Undefined",BBC Two Northern Ireland HD (720p) [Geo-blocked]
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/iptv_hd_abr_v1.mpd
@@ -137,6 +137,9 @@ https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_
 https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_04/iptv_uhd_v1.mpd
 #EXTINF:-1 tvg-id="BBCUHD5.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png" group-title="Undefined",BBC UHD 5 (2160p) [Geo-blocked] [Not 24/7]
 https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_05/iptv_uhd_v1.mpd
+#EXTINF:-1 tvg-id="BBCNewsEurope.uk" tvg-logo="https://i.imgur.com/REuN9RR.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",BBC World News (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s24/index.m3u8
 #EXTINF:-1 tvg-id="BeanoTV.uk" tvg-logo="https://i.imgur.com/IKHFZDJ.png" group-title="Undefined",Beano TV
 https://a5b4bacecd47433dad06d3189fc7422e.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BeanoTV/b1f233d5-847c-437d-aa4f-f73e67a85323/2.m3u8
 #EXTINF:-1 tvg-id="Blaze.uk" tvg-logo="https://i.imgur.com/6UcPWP9.png" group-title="Entertainment",Blaze (720p) [Geo-blocked]
@@ -177,6 +180,8 @@ https://edgesport-samsunguk.amagi.tv/playlist.m3u8
 https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
 #EXTINF:-1 tvg-id="EWTNEurope.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/512px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious",EWTN Europe (720p) [Not 24/7]
 https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-id="ExtremeSportsChannel.nl" tvg-logo="https://i.imgur.com/m7IC01U.png" group-title="Sports",Extreme Sports
+https://edge02.odtv.az/o4/extremesport/playlist.m3u8
 #EXTINF:-1 tvg-id="FadakTV.uk" tvg-logo="https://i.imgur.com/MBZ4sSA.png" group-title="Religious",Fadak TV (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UC2ZoBzeCXrZcMz4f82eMe-g.m3u8
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle",Fashion TV
@@ -271,8 +276,6 @@ http://45.76.186.114:8080/hls/noortv.m3u8
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk" tvg-logo="https://i.imgur.com/YyPnMeB.png" group-title="Music",Now 80's
 https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Now90s.uk" tvg-logo="https://i.imgur.com/yo8lEu1.png" group-title="Music",Now 90's
-https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NTVEurope.bd" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
 https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pac12 Insider (720p)
@@ -295,6 +298,8 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d4af2a24
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d134a74ca91eedee1630faa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=903&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVClassicTVUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Classic TV (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46ae801f347500099d461a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35f76fb0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2fac39a7-56bc-492e-ae1e-3f6fb6cef1bc
+#EXTINF:-1 tvg-id="PlutoTVConspiracy.uk" tvg-logo="https://i.imgur.com/sr0kYSH.png" group-title="Entertainment",Pluto TV Conspiracy (480p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d4ae94ef1a1bbb350ca41bb/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVCrimeUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Crime (England) (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea18cd42ee5410007e349dc/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea18cd42ee5410007e349dc&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=200&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVDramaUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Drama (England) (720p)
@@ -303,12 +308,16 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf91149880d60009
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf930548ff9b00090d5686/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf930548ff9b00090d5686&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=500&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVInsideUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Inside (England) (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d767857f65029ce2385b217/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d767857f65029ce2385b217&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=302&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVMotor.uk" tvg-logo="https://i.imgur.com/LSrfnpB.png" group-title="Auto",Pluto TV Motor (England) (480p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db0510962948d000961d3c6/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5db0510962948d000961d3c6&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=576&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVMoviesUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Movies (England) (684p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad8d3a31b95267e225e4e09/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ad8d3a31b95267e225e4e09&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=50&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVParanormalUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Paranormal (England) (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d4af2ffa9506ab29cf38c38/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d4af2ffa9506ab29cf38c38&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=216&terminate=false&userId=
 #EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr" tvg-logo="https://i.imgur.com/89yWH5L.png" group-title="Music",Pluto TV Qwest TV Jazz & Beyond (720p)
 https://siloh.pluto.tv/lilo/production/QwestJazz/master.m3u8
+#EXTINF:-1 tvg-id="PlutoTVRetroDrama.uk" tvg-logo="https://i.imgur.com/a2xIDMJ.png" group-title="Series",Pluto TV Retro Drama (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dde47b63585b500099f74ec/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5dde47b63585b500099f74ec&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=5204e9ec-0585-11eb-a18c-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVRetroDramaUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Retro Drama (England) (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf91f19c2c3300098ce961/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf91f19c2c3300098ce961&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=415&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVRomanceUK.uk" tvg-logo="" group-title="Undefined",Pluto TV Romance (720p)
@@ -379,3 +388,6 @@ https://i.mjh.nz/SamsungTVPlus/GBBB4300001NX.m3u8
 http://188.227.164.31/tsstreamer/VoxAfrica_SD.ts
 #EXTINF:-1 tvg-id="Wonder.uk" tvg-logo="https://i.imgur.com/LquGNbh.png" group-title="Undefined",Wonder
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",НТВ Мир (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s17/index.m3u8

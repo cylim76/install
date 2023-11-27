@@ -7,6 +7,10 @@ http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8
 https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTV.us" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="Outdoor",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="Outdoor",AKC TV Meet The Breeds
+https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="Outdoor",AKC TV Puppies 24/7
+https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="ANIMALKINGDOM.de" tvg-logo="https://i.imgur.com/J5RIBe8.png" group-title="Outdoor",ANIMAL KINGDOM (720p)
 https://cdn6.goprimetime.info/feed/202306140918/LC18/index.m3u8
 #EXTINF:-1 tvg-id="Beity.sa" tvg-logo="https://i.imgur.com/WyRsj6l.png" group-title="Outdoor",Beity
@@ -77,3 +81,6 @@ https://dai.google.com/linear/hls/event/im0MqOKRTHy9nVa1sirQSg/master.m3u8
 https://strm.yandex.ru/kal/dialogi/dialogi0.m3u8
 #EXTINF:-1 tvg-id="KonniyMir.ru" tvg-logo="https://i.imgur.com/X6otbK0.png" group-title="Outdoor",Конный Мир (576p) [Geo-blocked]
 http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
+#EXTINF:-1 tvg-id="Ohotnikirybolov.ru" tvg-logo="https://i.imgur.com/Bj1jI7F.png" group-title="Outdoor" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",Охотник и рыболов (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s62/index.m3u8
