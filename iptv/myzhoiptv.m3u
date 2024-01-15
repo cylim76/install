@@ -1,0 +1,6 @@
+﻿#EXTM3U
+
+#84
+#EXTINF:-1 tvg-id="tvNMoviesAsia.hk" tvg-logo="https://i.imgur.com/c4XvwO2.png" group-title="Movies",tvN 영화
+http://210.210.155.37/dr9445/h/h21/index.m3u8
+
