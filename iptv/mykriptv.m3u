@@ -44,6 +44,26 @@ https://ythls.armelin.one/channel/UC9Ac9DjBEmNqjAYxf8V1HPA.m3u8
 #EXTINF:-1 tvg-id="ABN.kr" tvg-logo="https://www.abn.co.kr/resources/images/logo.png" group-title="General",ABN TV
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 
+#39
+#EXTINF:-1 tvg-id="HLKBDTV.kr" tvg-logo="https://i.imgur.com/2f6W60P.png" group-title="General",부산 KBS
+https://code.vthanhtivi.pw/getlink/kbs/10_11/playlist.m3u8
+
+#40
+#EXTINF:-1 tvg-id="HLKGDTV.kr" tvg-logo="https://i.imgur.com/EMVWCh0.png" group-title="General",대구 KBS
+https://code.vthanhtivi.pw/getlink/kbs/30_11/playlist.m3u8
+
+#41
+#EXTINF:-1 tvg-id="HLKIDTV.kr" tvg-logo="https://i.imgur.com/co5JP79.png" group-title="General",대전 KBS
+https://code.vthanhtivi.pw/getlink/kbs/60_11/playlist.m3u8
+
+#42
+#EXTINF:-1 tvg-id="HLKHDTV.kr" tvg-logo="https://i.imgur.com/OHHrLqv.png" group-title="General",광주 KBS
+https://code.vthanhtivi.pw/getlink/kbs/40_11/playlist.m3u8
+
+#43
+#EXTINF:-1 tvg-id="HLQBDTV.kr" tvg-logo="https://i.imgur.com/uKLgVLZ.png" group-title="General",울산 KBS
+https://code.vthanhtivi.pw/getlink/kbs/11_11/playlist.m3u8
+
 #31
 #EXTINF:-1 tvg-id="GugakTV.kr" tvg-logo="https://i.imgur.com/Ey7Htm8.png" group-title="News",국악방송 HD
 https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
@@ -167,26 +187,6 @@ https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
 #21
 #EXTINF:-1 tvg-id="EBSPlus2.kr" tvg-logo="https://i.imgur.com/pllIMGi.png" group-title="Education",EBS+ 2
 https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
-
-#39
-#EXTINF:-1 tvg-id="HLKBDTV.kr" tvg-logo="https://i.imgur.com/2f6W60P.png" group-title="General",부산 KBS
-https://code.vthanhtivi.pw/getlink/kbs/10_11/playlist.m3u8
-
-#40
-#EXTINF:-1 tvg-id="HLKGDTV.kr" tvg-logo="https://i.imgur.com/EMVWCh0.png" group-title="General",대구 KBS
-https://code.vthanhtivi.pw/getlink/kbs/30_11/playlist.m3u8
-
-#41
-#EXTINF:-1 tvg-id="HLKIDTV.kr" tvg-logo="https://i.imgur.com/co5JP79.png" group-title="General",대전 KBS
-https://code.vthanhtivi.pw/getlink/kbs/60_11/playlist.m3u8
-
-#42
-#EXTINF:-1 tvg-id="HLKHDTV.kr" tvg-logo="https://i.imgur.com/OHHrLqv.png" group-title="General",광주 KBS
-https://code.vthanhtivi.pw/getlink/kbs/40_11/playlist.m3u8
-
-#43
-#EXTINF:-1 tvg-id="HLQBDTV.kr" tvg-logo="https://i.imgur.com/uKLgVLZ.png" group-title="General",울산 KBS
-https://code.vthanhtivi.pw/getlink/kbs/11_11/playlist.m3u8
 
 #88
 #EXTINF:-1 tvg-id="HLDRDTV.kr" tvg-logo="https://i.imgur.com/zVunmpQ.png" group-title="Undefined",CJB 청주 SBS
