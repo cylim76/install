@@ -8,4 +8,4 @@ sh /koolshare/ss/ssconfig.sh restart
 
 cru a ssgengxin "*/28 3,4,5,6,7,12,15,17,21 * * * /koolshare/scripts/ss_online_update.sh fancyss 3"
 cru a pplusgengxin "3 6-21 * * * /koolshare/scripts/pushplus_check_task.sh"
-cru a asusset "*/10  * * * /root/cronset.sh"
+cru a asusset "10 3-22 * * * /root/cronset.sh"
